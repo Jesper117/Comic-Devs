@@ -5,7 +5,7 @@ let nodemailer = require("nodemailer")
 let PORT = 5050
 
 let contactformemail = "comicdevs.project@gmail.com"
-let contactformpass = "ZCKmOm9FX29o"
+let contactformpass = ""
 
 let app = express()
 app.use(express.static("public"))

@@ -42,25 +42,13 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
-  width: 80px;
+  width: 100px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .navMenu a:hover {
-  color: #fddb3a;
-}
-
-.navMenu .dot {
-  width: 6px;
-  height: 6px;
-  background: #fddb3a;
-  border-radius: 50%;
-  opacity: 0;
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  color: rgb(206, 206, 206);
 }
 
 .navMenu a:nth-child(1):hover ~ .dot {

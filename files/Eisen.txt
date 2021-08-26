@@ -1,3 +1,5 @@
 1. De naam is Comic Devs
 2. Lettertype is rustgevend, duidelijk maar niet te groot
 3. Thema is rustgevend met blauw
+4. Contactpagina mailt naar een mail adres
+5. 

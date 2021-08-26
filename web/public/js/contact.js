@@ -3,8 +3,6 @@ let emailbox = document.getElementById("email")
 let questionbox = document.getElementById("question")
 let submitbtn = document.getElementById("submit")
 
-
-
 let db = false
 
 submitbtn.addEventListener("click", (e) => {

@@ -33,6 +33,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  position: relative;
 }
 
 .navMenu a {
@@ -42,9 +43,10 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
-  width: 100px;
+  width: 130px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  position: relative;
 }
 
 .navMenu a:hover {

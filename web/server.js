@@ -40,12 +40,14 @@ app.post("/submitform", function(req, res) {
         transporter.sendMail(mailopts, (err, info) => {
             if (err) {
                 console.log(err)
-                res.send("error")
+                res.send("Er is iets mis gegeaan.")
             }  else {
                 console.log("Form sent. (" + email + ")")
-                res.send("success")
+                res.send("Het formulier is verstuurd.")
             }
         })
+    } else {
+        res.send("Voer een geldig e-mail adres in.")
     }
 })
 

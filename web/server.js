@@ -2,7 +2,7 @@ let express = require("express")
 let bp = require("body-parser")
 let nodemailer = require("nodemailer")
 
-let PORT = 5050
+let PORT = 3000
 
 let contactformemail = "comicdevs.project@gmail.com"
 let contactformpass = ""
@@ -14,6 +14,10 @@ app.use(bp.urlencoded({ extended: true }))
 
 app.get("/", function(req, res) {
     res.sendFile(__dirname + "/public/home.html")
+})
+
+app.get("/public/google28e7dcb62095a520.html", function(req, res) {
+  res.sendFile(__dirname + "/google28e7dcb62095a520.html")
 })
 
 app.post("/submitform", function(req, res) {
